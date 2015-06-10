@@ -1,0 +1,260 @@
+html
+  head
+    title Profile set Package
+    link(rel='stylesheet', type='text/css', href='stylesheets/style.css')
+    link(rel='stylesheet', type='text/css', href='stylesheets/screen.css')
+    link(rel='stylesheet', type='text/css', href='stylesheets/print.css')
+    link(rel='stylesheet', type='text/css', href='assets/css/bootstrap.css')
+    link(rel='stylesheet', type='text/css', href='assets/css/uikit.css')
+    link(rel='stylesheet', type='text/css', href='assets/css/materialize.css')
+    link(rel='stylesheet', type='text/css', href='assets/css/owl.carousel.css')
+    link(rel='stylesheet', type='text/css', href='assets/css/owl.transitions.css')
+  body
+    .cover.full-layer
+      .row
+        .col-md-1.no-range.navigation(style='position:relative;')
+          .cover.full-layer.menu-fixed(style='position:fixed;')
+            .menu-wrapper.cover
+              .area-block
+                .area
+                  a.menu-item.active(href='#profile')
+                    .area-block
+                      .area
+                        i.small.mdi-action-accessibility
+                        p Personal info
+                  a.menu-item(href='#education')
+                    .area-block
+                      .area
+                        i.small.mdi-social-school
+                        p educational background
+                  a.menu-item(href='#work')
+                    .area-block
+                      .area
+                        i.uk-icon-laptop
+                        p My work
+                  a.menu-item(href='#contact')
+                    .area-block
+                      .area
+                        i.small.mdi-action-perm-phone-msg
+                        p Contact me
+        .col-md-10.no-range.main-wrapper
+          section#profile.cover.full-layer
+            .img-wrapper
+              img(src='assets/images/johnwick.jpg')
+              h1.job-title 				
+            .col-md-6.no-range.pull-right
+              .area-block
+                .area.pad
+                  h1
+                    | John Wick's 
+                    span Profile
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                    b sed diam nonummy
+                    |  nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                  .quotes-content
+                    i.uk-icon-quote-left
+                    p
+                      | quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+                  .cover
+                    hr
+                    a.waves-effect.waves-light.btn.blue-grey.darken-4.left
+                      i.mdi-action-thumbs-up-down.left
+                      | Hire Me
+          section#education.cover.full-layer
+            .parallax-container(style='height:430px;')
+              .parallax
+                img(src='assets/images/6.jpg')
+              .cover.pad(style='background:rgba(231, 76, 60,0.9);')
+                .valign-wrapper(style='height:350px;')
+                  .valign.center-align.cover.header-page
+                    i.uk-icon-graduation-cap
+                    h1
+                      b John Wick's
+                      |  Education history
+                    p
+                      | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            .cover.pad
+              ul.collapsible.popout.collapsible-accordion(data-collapsible='accordion')
+                li
+                  .collapsible-header.waves-effect
+                    i.mdi-av-subtitles
+                    b SD Negeri Setia asih 02 06
+                    span.right 2000 - 2006
+                  .collapsible-body(style='')
+                    .row.no-range
+                      .col-md-5(style='padding:2rem;')
+                        img.materialboxed(width='100%', src='assets/images/15.jpg')
+                      .col-md-7
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                li
+                  .collapsible-header.waves-effect
+                    i.mdi-av-subtitles
+                    b SMP Negeri 3 Babelan
+                    span.right 2006 - 2009
+                  .collapsible-body(style='')
+                    .row.no-range
+                      .col-md-5(style='padding:2rem;')
+                        img.materialboxed(width='100%', src='assets/images/15.jpg')
+                      .col-md-7
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                li
+                  .collapsible-header.waves-effect
+                    i.mdi-av-subtitles
+                    b SMK Negeri 1 Kota Bekasi
+                    span.right 2009 - 2012
+                  .collapsible-body(style='')
+                    .row.no-range
+                      .col-md-5(style='padding:2rem;')
+                        img.materialboxed(width='100%', src='assets/images/15.jpg')
+                      .col-md-7
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                li.active
+                  .collapsible-header.active.waves-effect
+                    i.mdi-av-subtitles
+                    b Bina Sarana Informatika University
+                    span.right ongoing
+                  .collapsible-body(style='')
+                    .row.no-range
+                      .col-md-5(style='padding:2rem;')
+                        img.materialboxed(width='100%', src='assets/images/15.jpg')
+                      .col-md-7
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                          b  incididunt ut labore et dolore magna aliqua
+                          | 	. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          section#work.cover.full-layer
+            .row.no-range
+              .col-md-6.no-range.full-height.pad
+                .quotes-content(style='margin-top:0;')
+                  i.uk-icon-laptop
+                  h3
+                    span it's all of
+                    |  my work
+                  p Do something incredible is my hobby
+                .card.left
+                  .card-image.waves-effect.waves-block.waves-light
+                    img.activator(src='assets/images/burger.png')
+                  .card-content
+                    span.card-title.activator.grey-text.text-darken-4
+                      | My first Peoject 
+                      b
+                        | Profile Set Package 
+                        i.mdi-navigation-more-vert.right
+                    p.truncate(style='width:350px;')
+                      | Here is some more information about this product that is only  revealed once clicked on
+                  .card-reveal
+                    span.card-title.grey-text.text-darken-4
+                      | Card Title 
+                      i.mdi-navigation-close.right
+                    p
+                      | Here is some more information about this product that is only revealed once clicked on.
+              .col-md-6.no-range
+                .col-md-12.half-height.no-range
+                  .col-md-6.full-height.work-item(style='background-image:url(assets/images/14.jpg);')
+                    .item-overlay
+                      .cover.full-layer.overlay-area
+                        p.title-item
+                          | ONE 
+                          b PROJECT
+                        hr
+                        .title-wrapper
+                          p
+                            | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                          .cover.links-item
+                            a(href='')
+                              i.uk-icon-unlink
+                            a(href='')
+                              i.uk-icon-heart
+                  .col-md-6.full-height.work-item(style='background-image:url(assets/images/15.jpg);')
+                    .item-overlay
+                      .cover.full-layer.overlay-area
+                        p.title-item
+                          b PROJECT
+                          |  ADVENTURE
+                        hr
+                        .title-wrapper
+                          p
+                            | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                          .cover.links-item
+                            a(href='')
+                              i.uk-icon-unlink
+                            a(href='')
+                              i.uk-icon-heart
+                .col-md-12.no-range.half-height.work-item(style='background-image:url(assets/images/10.jpg);')
+                  .item-overlay
+                    .cover.full-layer.overlay-area
+                      p.title-item
+                        b PROJECT
+                        |  CITY
+                      hr
+                      .title-wrapper
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                        .cover.links-item
+                          a(href='')
+                            i.uk-icon-unlink
+                          a(href='')
+                            i.uk-icon-heart
+          section#contact.cover.full-layer
+            iframe(src='https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31733.383045169798!2d107.0075334!3d-6.174530799999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sJalan+Pondok+Ungu+Permai%2C+Kaliabang+Tengah%2C+Jawa+Barat!5e0!3m2!1sid!2sid!4v1429630866006', width='100.1%', height='100%', frameborder='0', style='border:0')
+            .contact-wrapper
+              i#btn-close.mdi-action-highlight-remove
+              .cover.pad.white
+                h3 Bloody's Coorporate
+                hr
+                p Pondok ungu permai Blok G 20 No 3 Kaliabang Tengah, Bekasi Utara
+              .cover.contact-container
+                a#open-form.waves-effect.btn.white
+                  i.mdi-communication-message.left
+                  | Send me a message
+              .cover.contact-submit
+                .row
+                  form.col.s12
+                    .row
+                      .input-field.col.s6
+                        i.mdi-action-account-circle.prefix
+                        input#icon_prefix.validate(type='text')
+                        label(for='icon_prefix') Your Name
+                      .input-field.col.s6
+                        i.mdi-communication-phone.prefix
+                        input#icon_telephone.validate(type='tel')
+                        label(for='icon_telephone') Telephone
+                      .input-field.col.s12
+                        i.mdi-communication-email.prefix
+                        input#icon_telephone.validate(type='email')
+                        label(for='icon_telephone') E-mail
+                      .cover(style='padding:20px;')
+                        .input-field.col.s12
+                          textarea#textarea1.materialize-textarea
+                          label(for='textarea1') Your massage type here
+                .cover
+                  a.waves-effect.btn.btn-large
+                    i.mdi-communication-message.left
+                    | Send Now !
+        .col-md-1.no-range
+          .cover.full-layer.menu-fixed(style='background:#2C3E50;')
+            .cover.full-layer(style='padding:30px;')
+              .cover.social-wrapper
+                a.social-links.left.tooltipped(href='', data-position='left', data-delay='50', data-tooltip='Facebook')
+                  i.uk-icon-facebook
+                a.social-links.left.tooltipped(href='', data-position='left', data-delay='50', data-tooltip='Follow on twitter')
+                  i.uk-icon-twitter
+                a.social-links.left.tooltipped(href='', data-position='left', data-delay='50', data-tooltip='My dribbble :D')
+                  i.uk-icon-dribbble
+                a.social-links.left.tooltipped(href='', data-position='left', data-delay='50', data-tooltip='instagram to view my photo')
+                  i.uk-icon-instagram
+                a.social-links.left.tooltipped(href='', data-position='left', data-delay='50', data-tooltip='Linked in')
+                  i.uk-icon-linkedin
+                a.social-links.left.tooltipped(href='', data-position='left', data-delay='50', data-tooltip='My portfolio on behance')
+                  i.uk-icon-behance
+            p.copyright Design and coder by Medianto
+    script(type='text/javascript', src='assets/js/jquery.min.js')
+    script(type='text/javascript', src='assets/js/materialize.js')
+    script(type='text/javascript', src='assets/js/typed.js')
+    script(type='text/javascript', src='assets/js/owl.carousel.js')
+    script(type='text/javascript', src='assets/js/jquery.smoth-scroll.js')
+    script(type='text/javascript', src='assets/js/animation.js')
